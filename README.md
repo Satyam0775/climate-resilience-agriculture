@@ -2,68 +2,68 @@
 
 This project analyzes climate patterns in Maharashtra and Madhya Pradesh using historical temperature and rainfall data. It helps assess climate resiliency for agricultural regions by generating trend plots and key indicators like temperature variability and rainfall totals.
 
+---
+
+## 📁 Project Structure
+
 CLIMATE_RESILIENCE_SATELLITE_AGRICULTURE/
 │
 ├── data/
-│   └── raw/
-│       ├── MH_temperature.csv          # Maharashtra temperature data
-│       ├── MH_precipitation.csv        # Maharashtra rainfall data
-│       ├── MP_temperature.csv          # Madhya Pradesh temperature data
-│       └── MP_precipitation.csv        # Madhya Pradesh rainfall data
+│ └── raw/
+│ ├── MH_temperature.csv # Maharashtra temperature data
+│ ├── MH_precipitation.csv # Maharashtra rainfall data
+│ ├── MP_temperature.csv # Madhya Pradesh temperature data
+│ └── MP_precipitation.csv # Madhya Pradesh rainfall data
 │
 ├── Task/
-│   ├── app.py                          # Streamlit-based interactive dashboard
-│   ├── main.py                         # CLI-based analysis script
-│   ├── analyze.py                      # Plotting and trend analysis functions
-│   ├── indicators.py                   # Climate resilience indicator logic
-│   ├── ingest.py                       # Raw data loading functions
-│   ├── transform.py                    # Data cleaning and transformation
-│   ├── utils.py                        # Utility/helper functions
-│   └── tests/
-│       └── test_pipeline.py            # Basic unit tests
+│ ├── app.py # Streamlit-based interactive dashboard
+│ ├── main.py # CLI-based analysis script
+│ ├── analyze.py # Plotting and trend analysis functions
+│ ├── indicators.py # Climate resilience indicator logic
+│ ├── ingest.py # Raw data loading functions
+│ ├── transform.py # Data cleaning and transformation
+│ ├── utils.py # Utility/helper functions
+│ └── tests/
+│ └── test_pipeline.py # Basic unit tests
 │
-├── README.md                           # Project documentation and instructions
-├── case_study_analysis.md              # Climate resilience case study write-up
-└── requirements.txt                    # Required Python packages
+├── README.md # Project documentation and instructions
+├── case_study_analysis.md # Climate resilience case study write-up
+└── requirements.txt # Required Python packages
+
+
+---
 
 ## 🚀 How to Run
 
 ### 🔧 Setup
 
-1. Create virtual environment (optional but recommended):
+1. Create a virtual environment (optional but recommended):
 
 ```bash
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
-Install dependencies:
-
 pip install -r requirements.txt
-▶️ Option 1: Streamlit App
-Launch interactive dashboard:
 
+Launch the interactive dashboard:
+▶️ Option 1: Streamlit App
 streamlit run Task/app.py
 Features:
 
 Select state (MH or MP)
-
 Choose temperature type (mean, max, min)
-
-View trend graphs & resilience indicators
+View trend graphs and resilience indicators
 
 ▶️ Option 2: CLI Mode
-Run analysis in terminal:
-
+Run from terminal:
 python Task/main.py
-It will:
+What it does:
 
-Load and clean temperature & rainfall data
-
-Plot both trends
-
-Print resilience indicators
+Loads and cleans climate data
+Plots temperature and rainfall trends
+Prints climate resilience indicators
 
 📊 Climate Resilience Indicators
-We calculate the following metrics:
+We calculate the following indicators:
 
 Indicator	Description
 Temp_Mean	Average temperature
@@ -72,24 +72,48 @@ Rainfall_Total	Sum of precipitation (mm)
 Rainfall_Variability	Std deviation of rainfall (mm)
 
 🧪 Testing
-Run tests with:
+Run all tests using:
 
 pytest Task/tests/
-This ensures basic pipeline checks and data processing logic.
+Includes:
+
+Data ingestion test
+
+Transformation logic validation
+
+Output structure check
 
 📚 Documentation
 See case_study_analysis.md for:
 
-Case study writeup (with recommendations)
+Case study summary
 
 Climate observations
 
-Future enhancement plans (NDVI, policies, crop yield, economics)
+Future plans (NDVI, crop yield, economic impact)
+
+Recommendations for monitoring & policy enhancement
 
 📽 Demo Video
-➡️ A walkthrough video of the dashboard, pipeline, and insights is attached with the submission (or hosted on the repo).
+▶️ Watch the full walkthrough video here: https://www.loom.com/share/23c89ee6511c4c2eb8a52755ddaf4515
 
+The video explains:
 
-✅ This is a foundational framework for agricultural climate resiliency analysis, which can be extended with NDVI, yield data, and economic impacts.
+Project structure
 
-Let me know if you want the **video script** or **GitHub-ready version** next.
+How to use the dashboard
+
+Key climate insights
+
+What can be added next
+
+✅ Summary
+This project builds a strong foundation for climate resiliency analysis using open-source tools. It can be extended with:
+
+NDVI (satellite vegetation data)
+
+Economic and crop yield data
+
+Government scheme effectiveness
+
+With these, it can support decision-making for farmers, researchers, and policymakers.
