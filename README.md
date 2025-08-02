@@ -94,18 +94,16 @@ Future plans (NDVI, crop yield, economic impact)
 
 Recommendations for monitoring & policy enhancement
 
-📽 Demo Video
-▶️ Watch the full walkthrough video here: https://www.loom.com/share/23c89ee6511c4c2eb8a52755ddaf4515
+## 📽 **Demo Video**
 
-The video explains:
+👉 **[Click here to watch the Demo Video on Loom](https://www.loom.com/share/23c89ee6511c4c2eb8a52755ddaf4515)**
 
-Project structure
+This video includes:
+- 🌾 Overview of the project
+- 🖥️ How to run the dashboard
+- 📊 Sample climate indicators
+- 🚀 Future expansion ideas (NDVI, policies, economics)
 
-How to use the dashboard
-
-Key climate insights
-
-What can be added next
 
 ✅ Summary
 This project builds a strong foundation for climate resiliency analysis using open-source tools. It can be extended with:
