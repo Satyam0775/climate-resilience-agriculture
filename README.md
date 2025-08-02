@@ -6,9 +6,7 @@ This project analyzes climate patterns in Maharashtra and Madhya Pradesh using h
 
 CLIMATE_RESILIENCE_SATELLITE_AGRICULTURE/
 ├── data/
-
 │ └── raw/
-
 │ ├── MH_temperature.csv
 │ ├── MH_precipitation.csv
 │ ├── MP_temperature.csv
