@@ -30,6 +30,17 @@ CLIMATE_RESILIENCE_SATELLITE_AGRICULTURE/
 ├── case_study_analysis.md # Climate resilience case study write-up
 └── requirements.txt # Required Python packages
 
+## 📽 **Demo Video**
+
+👉 **[Click here to watch the Demo Video on Loom](https://www.loom.com/share/23c89ee6511c4c2eb8a52755ddaf4515)**
+
+This video includes:
+- 🌾 Overview of the project
+- 🖥️ How to run the dashboard
+- 📊 Sample climate indicators
+- 🚀 Future expansion ideas (NDVI, policies, economics)
+
+
 
 ---
 
@@ -89,29 +100,14 @@ See case_study_analysis.md for:
 Case study summary
 
 Climate observations
-
 Future plans (NDVI, crop yield, economic impact)
-
 Recommendations for monitoring & policy enhancement
-
-## 📽 **Demo Video**
-
-👉 **[Click here to watch the Demo Video on Loom](https://www.loom.com/share/23c89ee6511c4c2eb8a52755ddaf4515)**
-
-This video includes:
-- 🌾 Overview of the project
-- 🖥️ How to run the dashboard
-- 📊 Sample climate indicators
-- 🚀 Future expansion ideas (NDVI, policies, economics)
 
 
 ✅ Summary
 This project builds a strong foundation for climate resiliency analysis using open-source tools. It can be extended with:
 
 NDVI (satellite vegetation data)
-
 Economic and crop yield data
-
 Government scheme effectiveness
-
 With these, it can support decision-making for farmers, researchers, and policymakers.
