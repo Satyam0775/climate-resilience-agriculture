@@ -2,28 +2,29 @@
 
 This project analyzes climate patterns in Maharashtra and Madhya Pradesh using historical temperature and rainfall data. It helps assess climate resiliency for agricultural regions by generating trend plots and key indicators like temperature variability and rainfall totals.
 
-## 📁 Project Structure
-
 CLIMATE_RESILIENCE_SATELLITE_AGRICULTURE/
+│
 ├── data/
-│ └── raw/
-│ ├── MH_temperature.csv
-│ ├── MH_precipitation.csv
-│ ├── MP_temperature.csv
-│ └── MP_precipitation.csv
+│   └── raw/
+│       ├── MH_temperature.csv          # Maharashtra temperature data
+│       ├── MH_precipitation.csv        # Maharashtra rainfall data
+│       ├── MP_temperature.csv          # Madhya Pradesh temperature data
+│       └── MP_precipitation.csv        # Madhya Pradesh rainfall data
+│
 ├── Task/
-│ ├── app.py # Streamlit dashboard
-│ ├── main.py # Console-based analysis
-│ ├── analyze.py # Plotting functions
-│ ├── indicators.py # Resilience indicators
-│ ├── ingest.py # Data loading
-│ ├── transform.py # Data cleaning
-│ ├── utils.py # Helper utilities
-│ └── tests/
-│ └── test_pipeline.py # Basic tests
-├── README.md # Project overview
-├── case_study_analysis.md # Case study writeup
-└── requirements.txt # Python dependencies
+│   ├── app.py                          # Streamlit-based interactive dashboard
+│   ├── main.py                         # CLI-based analysis script
+│   ├── analyze.py                      # Plotting and trend analysis functions
+│   ├── indicators.py                   # Climate resilience indicator logic
+│   ├── ingest.py                       # Raw data loading functions
+│   ├── transform.py                    # Data cleaning and transformation
+│   ├── utils.py                        # Utility/helper functions
+│   └── tests/
+│       └── test_pipeline.py            # Basic unit tests
+│
+├── README.md                           # Project documentation and instructions
+├── case_study_analysis.md              # Climate resilience case study write-up
+└── requirements.txt                    # Required Python packages
 
 ## 🚀 How to Run
 
