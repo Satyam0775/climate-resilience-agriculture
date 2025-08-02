@@ -123,6 +123,3 @@ With future enhancements (NDVI, economic loss analysis, policy effectiveness), t
 - `README.md` – for setup instructions
 - `main.py` or `app.py` – for running the analysis
 - `/data/raw/` – for input files
-
-💬 *We’re open to further collaboration or integration with existing agri-tech systems.*
-
